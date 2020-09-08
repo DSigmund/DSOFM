@@ -16,7 +16,7 @@ best practices
 .bp
 .NH 2
 npm audit
-.so sec/npm-audit.ms.pp
+.so sec/npm-audit.ms
 
 .bp
 .NH 2
