@@ -9,7 +9,6 @@ The DevSecOps FieldManual
 Tom Herfort und Dominik Sigmund
 
 
-
 .NH 1
 Introduction
 .so introduction.ms

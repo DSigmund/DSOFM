@@ -17,6 +17,7 @@ https://github.com/Gavinok/ghighlight
 
 source-highlight
 
+brew install gs
 
 ## Topics
 
