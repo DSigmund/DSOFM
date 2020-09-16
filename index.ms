@@ -1,3 +1,4 @@
+.so macros.ms
 \# Create frontpage
 .RP no
 
@@ -7,11 +8,7 @@ The DevSecOps FieldManual
 .AU
 Tom Herfort und Dominik Sigmund
 
-\# Table of contents
-.so toc.ms
 
-.PX
-.bp
 
 .NH 1
 Introduction
@@ -19,24 +16,9 @@ Introduction
 
 .bp
 
-.NH 1
-Basics
-.so basics/index.ms
+\# Here we read in all files from content alphabetically
+%CONTENT%
+.CHAPTER "npm audit" npm-audit.ms
 
 .bp
-
-.NH 1
-Dev
-.so dev/index.ms
-
-.bp
-
-.NH 1
-Sec
-.so sec/index.ms
-
-.bp
-
-.NH 1
-Ops
-.so ops/index.ms
+.PX
