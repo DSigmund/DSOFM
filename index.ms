@@ -18,7 +18,6 @@ Introduction
 
 \# Here we read in all files from content alphabetically
 %CONTENT%
-.CHAPTER "npm audit" npm-audit.ms
 
 .bp
 .PX

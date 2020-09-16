@@ -4,6 +4,6 @@
 . XS
 \\$1
 . XE
-. so content/\\$2
+. so content/\\$1.ms
 . bp
 ..
