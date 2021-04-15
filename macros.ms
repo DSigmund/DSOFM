@@ -1,5 +1,6 @@
 .defcolor codegray rgb #cdcdcd
-.ft OpenSans
+.defcolor white rgb #ffffff
+.ft OpenSansR
 .de CHAPTER
 . NH 1
 \\$1
@@ -11,9 +12,9 @@
 ..
 .de SOURCESTART
 .fcolor codegray
-.ft Inconsolata
+.ft InconsolataR
 ..
 .de SOURCESTOP
-.fcolor
-.ft
+.fcolor white
+.ft OpenSansR
 ..

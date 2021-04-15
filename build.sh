@@ -1,4 +1,5 @@
 #!/bin/bash
+export GROFF_FONT_PATH=$PWD/fonts
 files=($(ls content/))
 insert=""
 for i in "${files[@]}"
