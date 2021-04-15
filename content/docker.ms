@@ -12,7 +12,7 @@ Image: A Docker Image is a file that is essentially a snapshot of a container. Y
 .LP  
 A typical Dockerfile (node.js)
 
-.SOURCE
+.SOURCESTART
 # Base Image
 FROM node:alpine
 
@@ -33,41 +33,41 @@ EXPOSE 7500
 # Run node.js Service
 CMD [ "node", "index.js" ]
 
-.SOURCE stop
+.SOURCESTOP
 
 .LP 
 Build an image
 
-.SOURCE
+.SOURCESTART
 docker build --tag <IMAGENAME> . 
-.SOURCE stop
+.SOURCESTOP
 
 .LP 
 Run an image in a container
 
-.SOURCE
+.SOURCESTART
 docker run <IMAGENAME> [-p <OUTERPORT>:<INNERPORT>] [--name <NAME>]
-.SOURCE stop
+.SOURCESTOP
 
 .LP 
 Check running containers
 
-.SOURCE
+.SOURCESTART
 docker ps
-.SOURCE stop
+.SOURCESTOP
 
 .LP 
 Check Logs from a container
 
-.SOURCE
+.SOURCESTART
 docker logs <NAME> [-f]
-.SOURCE stop
+.SOURCESTOP
 
 .LP 
 Stop the Containers
 
-.SOURCE
+.SOURCESTART
 docker stop <NAME>
-.SOURCE stop
+.SOURCESTOP
 
 .LP
