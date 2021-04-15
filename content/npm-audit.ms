@@ -1,15 +1,15 @@
 .LP
 Checks for vulns in packages
 
-.SOURCE sh
+.SOURCESTART
 npm audit
-.SOURCE stop
+.SOURCESTOP
 
 .LP
 It may also fix some issues
 
-.SOURCE sh
+.SOURCESTART
 npm audit --fix
-.SOURCE stop
+.SOURCESTOP
 
 .LP
