@@ -1,7 +1,7 @@
 .defcolor codegray rgb #cdcdcd
 .defcolor white rgb #ffffff
+.defcolor black rgb #000000
 .ft OpenSansR
-.fam
 .de CHAPTER
 . NH 1
 \\$1
@@ -13,6 +13,7 @@
 ..
 .de SOURCESTART
 .fcolor codegray
+.gcolor black
 .ft HackR
 .RS
 ..
