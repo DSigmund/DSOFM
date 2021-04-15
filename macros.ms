@@ -13,9 +13,11 @@
 ..
 .de SOURCESTART
 .fcolor codegray
-.ft InconsolataB
+.ft HackR
+.RS
 ..
 .de SOURCESTOP
+.RE
 .fcolor white
 .ft OpenSansR
 ..
