@@ -2,7 +2,7 @@
 .defcolor white rgb #ffffff
 .ds FAM OpenSans
 .ds FAMCODE Inconsolata
-.fam OpenSans
+.fam
 .de CHAPTER
 . NH 1
 \\$1
@@ -14,9 +14,9 @@
 ..
 .de SOURCESTART
 .fcolor codegray
-.famcode Inconsolata
+.famcode
 ..
 .de SOURCESTOP
 .fcolor white
-.fam OpenSans
+.fam
 ..
