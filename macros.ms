@@ -1,7 +1,8 @@
 .defcolor codegray rgb #cdcdcd
 .defcolor white rgb #ffffff
 .defcolor black rgb #000000
-.fam T
+.ds FAM Hack
+.fam Hack
 .de CHAPTER
 . NH 1
 \\$1
